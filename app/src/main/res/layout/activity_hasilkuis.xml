@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hasilkuis"
+    android:background="@color/background">
+    <ImageButton
+        android:id="@+id/x2"
+        android:src="@drawable/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/hitam"
+        />
+
+    <RelativeLayout
+        android:id="@+id/birubiru"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/x2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher_rounded2"
+        android:gravity="center"
+        >
+
+        <RelativeLayout
+            android:id="@+id/scorebar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/ic_launcher_rounded3"
+            android:padding="20dp">
+
+            <View
+                android:id="@+id/strut"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true" />
+            >
+
+            <TextView
+                android:id="@+id/true2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/strut"
+                android:layout_alignParentLeft="true"
+                android:text="True"
+                android:textAlignment="center"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:id="@+id/hasil"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/true2"
+                android:layout_alignRight="@id/strut"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/putih"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/false2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:text="False"
+                android:textAlignment="center"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:id="@+id/hasil2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/false2"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/putih"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/husal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <Button
+            android:onClick="ulangi"
+            android:text="Retry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scorebar"
+            android:background="@drawable/ic_launcher_rounded"
+            android:backgroundTint="@color/putih"
+            android:textColor="@color/fontmain"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

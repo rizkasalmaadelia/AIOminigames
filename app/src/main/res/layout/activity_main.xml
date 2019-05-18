@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+    <ImageButton
+        android:id="@+id/x2"
+        android:src="@drawable/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suit"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/hitam"
+        />
+    <RelativeLayout
+        android:id="@+id/birubiru"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/x2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher_rounded2"
+        android:gravity="center"
+        >
+    <include
+        layout="@layout/buttons"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/include"/>
+
+    <include layout="@layout/hands"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_above="@+id/include"
+        />
+    </RelativeLayout>
+</RelativeLayout>

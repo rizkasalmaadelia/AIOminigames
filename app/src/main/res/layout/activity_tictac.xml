@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tictac"
+    android:orientation="vertical"
+    android:background="@color/inti">
+
+
+    <LinearLayout
+        android:id="@+id/luar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/inti"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher_rounded6"
+            android:padding="10dp">
+            <TextView
+            android:id="@+id/text_view_player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Player 1:0"
+            android:layout_alignParentLeft="true"/>
+            </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/luar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_rounded6"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/text_view_player2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Player 2:0"></TextView>
+    </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="@drawable/ic_launcher_rounded7"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/button_reset_00"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher_rounded6"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                />
+            <Button
+                android:id="@+id/button_reset_01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_launcher_rounded6"
+                android:textSize="30sp"
+                />
+            <Button
+                android:id="@+id/button_reset_02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_launcher_rounded6"
+                android:textSize="30sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:background="@color/fontmain"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_reset_10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_launcher_rounded6"
+                android:textSize="30sp"/>
+            <Button
+                android:id="@+id/button_reset_11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_launcher_rounded6"
+                android:textSize="30sp"/>
+            <Button
+                android:id="@+id/button_reset_12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_launcher_rounded6"
+                android:textSize="30sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@drawable/ic_launcher_rounded8"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_reset_20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:background="@drawable/ic_launcher_rounded6"
+                />
+            <Button
+                android:id="@+id/button_reset_21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_launcher_rounded6"
+                android:textSize="30sp"/>
+            <Button
+                android:id="@+id/button_reset_22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher_rounded6"
+                android:layout_weight="1"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/button_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:background="@drawable/ic_launcher_rounded"
+            android:backgroundTint="@color/putih"
+            android:textColor="@color/fontmain"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

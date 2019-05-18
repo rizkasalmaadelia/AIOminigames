@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".index"
+    android:orientation="vertical"
+    android:background="@color/background"
+    >
+
+    <ImageButton
+        android:id="@+id/indexback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:background="@color/background"
+        android:padding="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Game"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/hitam"
+        android:id="@+id/select"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/select"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher_rounded4"
+        android:paddingTop="40dp"
+        android:gravity="center"
+        >
+        <RelativeLayout
+            android:id="@+id/ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            >
+        <ImageButton
+            android:id="@+id/playbutton"
+            android:src="@drawable/rock2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_launcher_rounded9"
+            android:padding="10dp"
+
+            />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ll2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_below="@id/ll1"
+            android:layout_margin="10dp"
+            android:layout_centerInParent="true"
+            >
+
+            <ImageButton
+                android:id="@+id/playbutton2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher_rounded9"
+                android:padding="10dp"
+                android:src="@drawable/ask"
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/ll2"
+            android:layout_margin="10dp"
+            android:layout_centerInParent="true"
+            >
+        <ImageButton
+            android:id="@+id/playbutton3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_launcher_rounded9"
+            android:padding="10dp"
+            android:src="@drawable/tictac" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ll4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/ll3"
+            android:layout_margin="10dp"
+            android:layout_centerInParent="true"
+            >
+
+            <ImageButton
+                android:id="@+id/playbutton4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher_rounded9"
+                android:src="@drawable/spinicon" />
+        </RelativeLayout>
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/ll5"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_below="@id/ll4"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_margin="10dp"-->
+            <!--&gt;-->
+        <!--<ImageButton-->
+            <!--android:id="@+id/playbutton5"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/ic_launcher_rounded9"-->
+            <!--android:src="@drawable/ihex"-->
+            <!--/></RelativeLayout>-->
+        <RelativeLayout
+            android:id="@+id/ll5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/ll4"
+            android:layout_margin="10dp"
+            android:layout_centerInParent="true"
+            >
+
+            <ImageButton
+                android:id="@+id/playbutton5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher_rounded9"
+                android:src="@drawable/ihex" />
+        </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/ll6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+               android:layout_below="@id/ll5"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/playbutton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/ic_launcher_rounded9"
+                    android:src="@drawable/brain3" />
+            </RelativeLayout>
+
+    </RelativeLayout>
+    </RelativeLayout>

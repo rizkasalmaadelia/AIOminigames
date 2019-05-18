@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    >
+    <ImageButton
+        android:id="@+id/x3"
+        android:src="@drawable/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kuiz"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/hitam"
+        android:id="@+id/kuiz"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/kuiz"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher_rounded4"
+        android:paddingTop="40dp"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:id="@+id/question"
+            android:textSize="30sp"
+            android:textColor="@color/putih"
+            android:paddingLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contoh Pertanyaan"
+        android:id="@+id/pertanyaan"
+        android:layout_below="@+id/question"
+        android:textColor="@color/putih"
+        android:textSize="16sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_launcher_rounded2"
+            android:layout_below="@+id/pertanyaan"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginRight="40dp">
+
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan A"
+            android:background="@drawable/ic_launcher_rounded5"
+            android:padding="15dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/pilihanA"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan B"
+            android:id="@+id/pilihanB"
+            android:background="@drawable/ic_launcher_rounded5"
+            android:padding="15dp"
+            android:layout_marginBottom="10dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan C"
+            android:id="@+id/pilihanC"
+            android:background="@drawable/ic_launcher_rounded5"
+            android:padding="15dp"
+            android:layout_marginBottom="10dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan D"
+            android:id="@+id/pilihanD"
+            android:background="@drawable/ic_launcher_rounded5"
+            android:padding="15dp"
+            android:layout_marginBottom="10dp"/>
+
+    </RadioGroup>
+            </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_alignParentBottom="true"
+            android:onClick="next"
+            android:background="@drawable/ic_launcher_rounded"
+            android:backgroundTint="@color/putih"
+            android:textColor="@color/fontmain"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginRight="40dp"
+           />
+    </RelativeLayout>
+    </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

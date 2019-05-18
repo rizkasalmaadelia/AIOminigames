@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inti"
+    tools:context=".credit">
+
+    <ImageButton
+        android:id="@+id/x2"
+        android:src="@drawable/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/inti"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/putih"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:id="@+id/ll10"></LinearLayout>
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/putih"
+            android:layout_below="@id/ll10"
+            android:text="Developer and Content Creator"
+            android:textSize="25dp"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv10b"
+            android:layout_below="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rizka Salma Adelia"
+            android:textColor="@color/putih"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/tv10c"
+            android:layout_below="@+id/tv10b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hanifa Wahyu Listiyani"
+            android:textColor="@color/putih"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/putih"
+            android:layout_below="@id/tv10c"
+            android:text="Designer"
+            android:textSize="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv11b"
+            android:layout_below="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anggiat Manuel"
+            android:textColor="@color/putih"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/tv11c"
+            android:layout_below="@+id/tv11b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M. Yanuar Budi"
+            android:textColor="@color/putih"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"/>
+        <ImageButton
+            android:id="@+id/btnig"
+            android:layout_below="@+id/tv11c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ig8"
+            android:background="@color/inti"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

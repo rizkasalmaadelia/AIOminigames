@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sahabatdeveloper.kk5_2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pngaio512"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".refresh">
+
+        </activity>
+        <activity android:name=".sples"></activity>
+        <activity android:name=".ChooseAnswer" />
+        <activity android:name=".index2" />
+        <activity android:name=".MainActivityb" />
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".animal" />
+        <activity android:name=".credit" />
+        <activity android:name=".rule" />
+        <activity android:name=".menu" />
+        <activity android:name=".pahlawan" />
+        <activity android:name=".spin" />
+        <activity android:name=".tictac" />
+        <activity android:name=".hasilkuis" />
+        <activity android:name=".kuis" />
+        <activity android:name=".index" />
+        <activity
+            android:name=".awalan"
+            android:label="@string/title_activity_awalan" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
